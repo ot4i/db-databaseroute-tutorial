@@ -260,19 +260,7 @@
                             "link": "com.ibm.etools.mft.doc/rt26110_.htm"
                         }
                     ]
-                },
-		"exits": 
-		{
-			"title": "Run Exits",
-			"details": 
-			[
-				{
-					"name": "Clean Up",
-					"description": "Clean up and remove any changes in your workspace made by the tutorial.",
-					"method": "cleanUp()"
-				}
-			]
-		}
+                }
             }
         }
     }
