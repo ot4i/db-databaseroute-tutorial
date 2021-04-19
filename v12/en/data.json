@@ -65,14 +65,14 @@
             "summary": 
 			{
                 "overviewName": "OVERVIEW",
-                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the ACE concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
+                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
                 "sections": 
 				[
                     {
                         "section": "This tutorial demonstrates a simple message flow that receives a JSON input message over HTTP, and uses a data field in the JSON to help construct the WHERE clause of a SELECT statement which is constructed by the DatabaseRoute node. The DatabaseRoute node is a message flow node which helps users route messages based upon data in a database simply by choosing which columns they would like to use, without needing to know detailed SQL syntax."
                     },
                     {
-                        "section": "The DatabaseRoute node uses the JDBC protocol to communicate with the database. The tutorial provides a policy of the type JDBCProviders which defines all of the connection information which is required. The tutorial requires an ACE integration node owned server, or a standalone server."
+                        "section": "The DatabaseRoute node uses the JDBC protocol to communicate with the database. The tutorial provides a policy of the type JDBCProviders which defines all of the connection information which is required. The tutorial requires an integration node owned server, or a standalone server."
                     },
                     {
                         "section": "In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution. This tutorial provides an application to hold the message flow, and a policy project to hold the JDBCProvider policy. The instructions also describe how to create the DB2 database which is used by the scenario."
